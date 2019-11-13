@@ -83,10 +83,6 @@ module.exports = {
         historyApiFallback: true,
         compress: true,
         port: 8080,
-        open: "Google Chrome",
-        watchContentBase: true,
-        proxy: {
-            "/api": "http://localhost:3000"
-        }
+        open: "Google Chrome"
     }
 };
